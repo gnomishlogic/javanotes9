@@ -90,8 +90,12 @@ full name of the class that you want to run.  For example, the <classname>ChatRo
 class, discussed later in this section, is defined in the package <sourceref href="netgame/chat/">netgame.chat</sourceref>,
 so you would run it with the command</p>
 
+<swingdiv>
+<pre>java netgame.chat.ChatRoomWindow</pre>
+</swingdiv>
+<fxdiv>
 <pre>jfx netgame.chat.ChatRoomWindow</pre>
-
+</fxdiv>
 
 <break/>
 

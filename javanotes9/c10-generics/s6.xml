@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE section SYSTEM "../javanotes9.dtd" >
 
-<section id="generics.6" title="Introduction the Stream API">
+<section id="generics.6" title="Introduction to the Stream API">
    
 <p><start><big>A</big>mong its new features, </start>Java 8 introduced
 a <newword>stream API</newword>, which represents a new way of

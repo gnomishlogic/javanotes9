@@ -330,7 +330,7 @@ computing task. Simple looping and branching are all you really need!</p>
 
 </subsection>
 
-<subsection id="control.1.3a" title="Control Abstractiont">
+<subsection id="control.1.3a" title="Control Abstraction">
 
 <p>Control structures such as <code>if</code> statements and <code>while</code> loops
 allow you to control processes that go on inside the CPU of a computer.  But as to

@@ -399,6 +399,8 @@ public class GUIChat extends JFrame {
 			state = ConnectionState.LISTENING;
 			this.port = port;
 			postMessage("\nLISTENING ON PORT " + port + "\n");
+			try { setDaemon(true); }
+			catch (Exception e) {}
 			start();
 		}
 
@@ -412,6 +414,8 @@ public class GUIChat extends JFrame {
 			this.remoteHost = remoteHost;
 			this.port = port;
 			postMessage("\nCONNECTING TO " + remoteHost + " ON PORT " + port + "\n");
+			try { setDaemon(true); }
+			catch (Exception e) {}
 			start();
 		}
 

@@ -215,7 +215,7 @@ for (int row = 0; row &lt; height; row++) {  // height is number of rows in imag
 int threadCount = ... ; // Number of threads in the pool (selected by user).
 workers = new WorkerThread[threadCount];
 running = true;  // Set the signal before starting the threads!
-threadsRemaining = workers;  // Records how many threads are still running.
+threadsRunning = threadCount;  // Records how many threads are still running.
 for (int i = 0; i &lt; threadCount; i++) {
     workers[i] = new WorkerThread();
     try {
