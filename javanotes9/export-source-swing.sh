@@ -24,7 +24,7 @@ PROJECT_SWING="$PROJECT-swing"
 # so $SOURCE_DIR/$PROJECT is the JavaFX Eclipse project directory, and
 # $SOURCE_DIR/$PROJECT_SWING is the supplemental Swing Eclipse project.
 
-SOURCE_DIR='/home/eck/git/javanotes9'
+SOURCE_DIR='/workspaces/javanotes9'
 
 # VERSION is only used as part of the name of the EXPORT_DIR.
 # EXPORT_DIR is directory to which the files are exported.
@@ -33,14 +33,14 @@ SOURCE_DIR='/home/eck/git/javanotes9'
 #           will be deleted!!!
 
 VERSION='javanotes-9.0-swing'
-EXPORT_DIR="/home/eck/Desktop/$VERSION-source"
+EXPORT_DIR="$HOME/$VERSION-source-export"
 
 # The scripts for building the book use xalan-j to process the XSLT
 # files.  You can set XALAN_DIR to the directory that contains the
 # xalan-j .jar files, or you can leave it empty and set the XALAN_DIR
 # directory in BUILD-env.sh.
 
-XALAN_DIR="/home/eck/xalan-j_2_7_2"
+XALAN_DIR="/usr/share/java"
 
 #---------------------------------------------------------------
 
@@ -120,4 +120,3 @@ if [ -d "$XALAN_DIR" ] ; then
 fi
 
 echo Exported source to $EXPORT_DIR
-

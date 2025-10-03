@@ -41,5 +41,5 @@
    javanotes9.xml with this xsl transform file:
    
    XALAN_DIR='...'
-   java -cp $XALAN_DIR/xalan.jar:$XALAN_DIR/serializer.jar:$XALAN_DIR/xercesImpl.jar:$XALAN_DIR/xml-apis.jar org.apache.xalan.xslt.Process -xsl convert-check-sourcerefs.xsl -in javanotes9.xml
+   java -cp $XALAN_DIR/xalan2.jar:$XALAN_DIR/serializer.jar:$XALAN_DIR/xercesImpl.jar:$XALAN_DIR/xml-apis.jar org.apache.xalan.xslt.Process -xsl convert-check-sourcerefs.xsl -in javanotes9.xml
 -->

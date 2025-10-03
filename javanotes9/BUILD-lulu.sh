@@ -9,14 +9,14 @@ source BUILD-env.sh
 
 # can't do anything if user hasn't set up xalan, so check that first.
 
-if [ ! -f $XALAN_DIR/xalan.jar ] ; then
-   echo Cannot find the xalan.jar file in $XALAN_DIR
+if [ ! -f $XALAN_DIR/xalan2.jar ] ; then
+   echo Cannot find the xalan2.jar file in $XALAN_DIR
    echo Cannot proceed without xalan.
    echo Did you set up Xalan-J correctly?  See README.txt.
    exit 1
 fi
 
-XALAN_COMMAND="$JAVA_COMMAND -cp $XALAN_DIR/xalan.jar:$XALAN_DIR/serializer.jar:$XALAN_DIR/xercesImpl.jar:$XALAN_DIR/xml-apis.jar org.apache.xalan.xslt.Process"
+XALAN_COMMAND="$JAVA_COMMAND -cp $XALAN_DIR/xalan2.jar:$XALAN_DIR/serializer.jar:$XALAN_DIR/xercesImpl.jar:$XALAN_DIR/xml-apis.jar org.apache.xalan.xslt.Process"
 
 cd $JAVANOTES_SOURCE_DIR
 

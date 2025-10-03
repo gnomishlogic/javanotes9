@@ -30,7 +30,7 @@ fi
 
 # XALAN_DIR is a directory that contains all the jar files that
 # are needed to run the xalan XSLT processor.  A standard xalan2 download
-# should work.  The jar files are: xalan.jar, serializer.jar, 
+# should work.  The jar files are: xalan2.jar, serializer.jar,
 # xercesImpl.jar, and xml-apis.jar.  (To use the default setup, the
 # TOP_DIR should contain a directory named xalan that contains 
 # these jar files.  A link to a xalan download directory would work.)
